@@ -9,7 +9,7 @@ const User = () => {
         <Tabs>
           <TabList>
             <Tab></Tab>
-            <TabPanel></TabPanel>
+            <TabPanel>Hello</TabPanel>
           </TabList>
         </Tabs>
       </form>
