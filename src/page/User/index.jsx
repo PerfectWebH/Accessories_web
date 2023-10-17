@@ -87,6 +87,13 @@ const User = () => {
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
+
+            <input
+              type="text"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </TabPanel>
         </Tabs>
       </form>
