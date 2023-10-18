@@ -80,7 +80,14 @@ const User = () => {
               </Link>
             </h5>
           </TabPanel>
-          <TabPanel>Hello World</TabPanel>
+          <TabPanel value={2}>
+            <input
+              type="text"
+              placeholder="Username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+            />
+          </TabPanel>
         </Tabs>
       </form>
     </div>
