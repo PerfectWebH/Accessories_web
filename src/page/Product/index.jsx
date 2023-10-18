@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../../configs/fontIcon";
-import { ReviewProduct } from "../../components/common";
-import { products, products_01 } from "../../data/ProductData";
+import "configs/fontIcon";
+import { ReviewProduct } from "components/common";
+import { products, products_01 } from "data/ProductData";
 import { Tabs, TabList, Tab, TabPanel } from "react-tabs";
-import { useTabs } from "../../hook/useTabs/index";
+import { useTabs } from "hook/useTabs/index";
 
 const Product = () => {
   const { tabIndex, setTabIndex, handleChange, tabChange, activeTabs } =

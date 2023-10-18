@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-export const useTabs = (initialTab = 0) => {
+export const useTabs = () => {
   const [tabIndex, setTabIndex] = useState(0);
   const [activeTabs, setActiveTabs] = useState(
-    new Array(2).fill(false).map((_, index) => index === initialTab)
+    new Array(2).fill(false).map((_, index) => index === 0)
   );
 
   const handleChange = (index) => {

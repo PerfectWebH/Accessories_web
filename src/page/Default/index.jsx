@@ -1,9 +1,9 @@
 import React from "react";
-import { Banner, ReviewProduct } from "../../components/common/index";
+import { Banner, ReviewProduct } from "components/common/index";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
-import { banners, reviews } from "../../data/ProductData";
+import { banners, reviews } from "data/ProductData";
 
 const Default = () => {
   return (

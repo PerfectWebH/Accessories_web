@@ -1,4 +1,4 @@
-import { Default, About, Product, User, Cart, ProductDetails } from "../page";
+import { Default, About, Product, User, Cart, ProductDetails } from "page";
 // Public Routes
 const publicRoutes = [
   { path: "/", component: Default },

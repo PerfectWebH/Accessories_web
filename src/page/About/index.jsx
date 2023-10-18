@@ -1,5 +1,4 @@
-import React from "react";
-import { review01, about02 } from "../../assets/import";
+import { review01, about02 } from "assets/import";
 
 const About = () => {
   return (
